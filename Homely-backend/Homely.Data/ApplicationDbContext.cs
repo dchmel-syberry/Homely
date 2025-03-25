@@ -1,8 +1,8 @@
-﻿using Homely.Data.Entities;
-using Homely.Data.Entities.Rbac;
+﻿using Homely.Infrastructure.Data.Entities;
+using Homely.Infrastructure.Data.Entities.Rbac;
 using Microsoft.EntityFrameworkCore;
 
-namespace Homely.Data;
+namespace Homely.Infrastructure.Data;
 
 public class ApplicationDbContext : DbContext
 {

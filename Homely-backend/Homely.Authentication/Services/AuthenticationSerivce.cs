@@ -1,4 +1,4 @@
-﻿using Homely.Data.Entities;
+﻿using Homely.Infrastructure.Data.Entities;
 using Homely.Security.Authentication.Services.Interfaces;
 using Microsoft.IdentityModel.JsonWebTokens;
 using Microsoft.IdentityModel.Tokens;

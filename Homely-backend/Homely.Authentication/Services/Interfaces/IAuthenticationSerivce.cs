@@ -1,4 +1,4 @@
-﻿using Homely.Data.Entities;
+﻿using Homely.Infrastructure.Data.Entities;
 
 namespace Homely.Security.Authentication.Services.Interfaces;
 

@@ -1,6 +1,6 @@
-﻿using Homely.Data.Entities.Common;
+﻿using Homely.Infrastructure.Data.Entities.Common;
 
-namespace Homely.Data.Entities.Rbac;
+namespace Homely.Infrastructure.Data.Entities.Rbac;
 
 public class Permission : Entity
 {

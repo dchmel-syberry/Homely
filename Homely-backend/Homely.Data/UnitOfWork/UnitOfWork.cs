@@ -1,4 +1,4 @@
-﻿namespace Homely.Data.UnitOfWork;
+﻿namespace Homely.Infrastructure.Data.UnitOfWork;
 
 public class UnitOfWork : IDisposable
 {

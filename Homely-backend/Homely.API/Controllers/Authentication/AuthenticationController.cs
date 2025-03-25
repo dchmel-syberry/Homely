@@ -1,6 +1,6 @@
 ﻿using Homely.API.Contracts.Authentication.Requests;
 using Homely.API.Controllers.Base;
-using Homely.Data.Entities;
+using Homely.Infrastructure.Data.Entities;
 using Homely.Security.Authentication.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -11,9 +11,9 @@ namespace Homely.API.Controllers.Authentication;
 public class AuthenticationController(IAuthenticationSerivce authenticationService) : ApiController
 {
     [HttpPost("/signin", Name = "Sign in")]
-    public IActionResult Index(SignInRequest request)
+    public IActionResult SignIn(SignInRequest request)
     {
-        var user = new User();
+        var user = new User() { Email = "admin@mail.com" };
 
         authenticationService.GenerateJwtTokenAsync(user);
 

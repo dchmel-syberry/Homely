@@ -1,7 +1,7 @@
-﻿using Homely.Data.Entities.Common;
-using Homely.Data.Entities.Rbac;
+﻿using Homely.Infrastructure.Data.Entities.Common;
+using Homely.Infrastructure.Data.Entities.Rbac;
 
-namespace Homely.Data.Entities;
+namespace Homely.Infrastructure.Data.Entities;
 
 public class User : Entity
 {
